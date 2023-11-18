@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random User</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <!-- title -->
+    <h1 class="text-center text-4xl font-bold">Random User</h1>
+
+    <!-- display name, email, phone number -->
+    <div class="flex justify-center mt-10">
+      <div class="w-1/3">
+        <div class="flex justify-between">
+          <p class="font-bold">Name</p>
+          <p><%= name %></p>
+        </div>
+        <div class="flex justify-between">
+          <p class="font-bold">Email</p>
+          <p><%= email %></p>
+        </div>
+        <div class="flex justify-between">
+          <p class="font-bold">Phone Number</p>
+          <p><%= phone %></p>
+        </div>
+      </div>
+  </body>
+</html>
